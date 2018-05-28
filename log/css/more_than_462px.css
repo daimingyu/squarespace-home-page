@@ -1,0 +1,23 @@
+/****************************dr_log_foot****************************************/
+.dr_log_foot{
+	margin-top: 33px;
+	margin-bottom: 33px;
+	width:100%;
+}
+.dr_log_foot_container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.other{
+	margin-right: 22px;
+    margin-bottom: 0;
+    color: #A1A1A1;
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 300ms ease-in;
+    font-family:  Gotham;
+}
+.other:hover{
+	color: #000000;
+}

@@ -1,0 +1,15 @@
+@font-face
+{
+	font-family: Gotham;
+	src: url('../fonts/gotham-pro-light.woff.ttf');
+}
+@font-face
+{
+	font-family: Gotham Reg;
+	src: url('../fonts/GothaProReg.woff.ttf');
+}
+@font-face
+{
+	font-family: Gotham Blod;
+	src: url('../fonts/GothamPro-Bold.woff.ttf');
+}

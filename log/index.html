@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<title>log</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link media="screen and (min-width:462px)" rel="stylesheet" href="css/more_than_462px.css" />  
+	<link media="screen and (max-width:462px)" rel="stylesheet" href="css/less_than_462px.css" />  
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<div class="dr_log_container">
+		<div class="dr_log_head">
+			<a href="https://www.baidu.com/">
+				<img src="images/logo.jpg">
+			</a>
+			<span class="log_close">
+				<img src="images/close.png">
+			</span>
+		</div>
+		<div class="dr_login_form">
+			<div>
+				<div class="dr_login_form_container">
+					<div>
+					    <h1 class="title"><span>Log into Squarespace</span></h1>
+					    <div>
+					        <input class="username" name="email" type="email" placeholder="Email Address" autocapitalize="none" autocorrect="off">
+					    </div>
+					    <div>
+					        <input class="password" name="password" type="password" placeholder="Password">
+					    </div>
+					    <button class="button" data-test="login-button" disabled="">
+					    	<span>Log In</span>
+					    </button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="dr_logup_from"  style="display:none">
+			<div>
+				<div class="dr_logup_from_container">
+					<div>
+					    <h1 class="title"><span>Create an Account</span></h1>
+					    <div>
+					        <input class="firstName" placeholder="First Name">
+					    </div>
+					    <div>
+					        <input class="lastName" placeholder="Last Name">
+					    </div>
+					    <div>
+					        <input class="username" name="email" type="email" placeholder="Email Address" autocapitalize="none" autocorrect="off">
+					    </div>
+					    <div>
+					        <input class="password" name="password" type="password" placeholder="Password">
+					    </div>
+					    <p class="attention">
+					    	<span>By creating an account, you agree to our 
+					    		<a class="sc-jAaTju kzxPzc sc-htoDjs cVyllw" target="_blank" href="https://www.squarespace.com/terms-of-service/">
+					    		<span>Terms of Service</span>
+					        </a>and have read and understood the <a class="sc-jAaTju kzxPzc sc-htoDjs cVyllw" target="_blank" href="https://www.squarespace.com/privacy/"><span>Privacy Policy</span></a>
+					        </span>
+					    </p>
+					    <button class="button" data-test="signup-button" disabled="">
+					    	<span>Sign Up</span>
+					    </button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="dr_recover"  style="display:none">
+			<div>
+				<div class="dr_recover_container">
+				    <h1 class="title"><span>Recover Account</span></h1>
+				    <p class="attention">
+				    	<span>Enter the email address used to create your account</span>
+				    </p>
+				    <div>
+				        <input class="username" data-test="Email" placeholder="Email Address">
+				    </div>
+				    <button class="button" data-test="SendRecoveryEmail" disabled="">
+				    	<span>Send Email</span>
+				    </button>
+				    <p class="attention">
+				    	<a class="sc-htoDjs cVyllw" href="#/recovery/domain"><span>Don't know the email address</span></a>
+				    </p>
+				</div>
+			</div>
+		</div>
+		<div class="dr_log_foot">
+			<div class="dr_log_foot_container">
+				<a class="other login" href="#/signup" style="display:none" data-test="CreateAnAccount">
+					<span>Already have an account? Go to log in.</span>
+				</a>
+				<a class="other create" href="#/signup" data-test="CreateAnAccount">
+					<span>Create an Account</span>
+				</a>
+				<a class="other recover" href="#/recovery" data-test="RecoverAccount">
+					<span>Recover Account</span>
+				</a>
+				<a class="other google" data-test="google" href="#/recovery" margin="none">
+					<span>Log in with Google</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/log/toggle.js"></script>
+	<script type="text/javascript" src="js/log/button_control.js"></script>
+</body>
+</html>
