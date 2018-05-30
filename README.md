@@ -1,7 +1,5 @@
 # squarespace_home_page
 ![Alt text](https://raw.githubusercontent.com/daimingyu/photos/master/camera.jpg)
-<!-- more -->
-___
 
 ## 一、前言
 
