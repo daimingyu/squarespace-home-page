@@ -1,17 +1,15 @@
 (function(){        //使用闭包来隔离作用域
 
-	!function(){     //主函数
-		var input = $('.header .header_search .header_search_input input');	
-		var btn = $('.header .header_search .header_search_input .search_submit')
+	var input = $('.header .header_search .header_search_input input');	
+	var btn = $('.header .header_search .header_search_input .search_submit')
 
-		input.on('input propertychange', function(){
-			if(isOk([input])){
-				show(btn);
-			}else{
-				hide(btn);
-			}
-		});
-	}();
+	input.on('input propertychange', function(){
+		if(isOk([input])){
+			show(btn);
+		}else{
+			hide(btn);
+		}
+	});
 
 	/**
 	 * [isOk 判断每个 input 是否都准备好了]

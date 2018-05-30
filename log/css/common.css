@@ -14,14 +14,14 @@
 	background:transparent;
 	overflow: hidden;
 }
-.dr_log_head a img{
+.dr_log_head .log_logo img{
 	width: 44px;
 	float: left;
 	margin-top: 22px;
 	margin-left: 22px;
 }
 .dr_log_head  .log_close{
-	display: inline-block;
+	display: block;
 	width: 44px;
 	height: 44px;
 	background :transparent;
@@ -40,6 +40,7 @@
 .dr_log_head  .log_close img{
 	width: 25px;
 }
+
 /****************************dr_login_form****************************************/
 .dr_login_form{
 	width:100%;

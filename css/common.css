@@ -92,7 +92,9 @@
 }
 .header_nav .header_nav_right .login{
 	background : #000000;
-	color: white;
+}
+.header_nav .header_nav_right .login a{
+	color:white;
 }
 .header_nav .header_nav_right .login:hover{
 	opacity: .8;
